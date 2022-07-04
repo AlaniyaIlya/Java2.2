@@ -1,14 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        boolean sum2 = true;
-        int sum1 = 1100;
+        int rub = 1200;
         int bonus;
-        if(sum1 > 1000) {
-            bonus = sum1 / 100;
-        } else {
-            bonus = 0;
-        }
+        bonus = rub / 100;
         System.out.print("Баланс вместе с бонусом: ");
-        System.out.println(sum1 + bonus);
+        System.out.println(rub + bonus);
     }
 }
